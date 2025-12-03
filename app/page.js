@@ -56,16 +56,7 @@ export default function Home() {
                 marginBottom: "30px",
                 borderRadius: "8px",
                 boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
-                transition: "transform 0.2s, box-shadow 0.2s",
                 cursor: "pointer",
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.transform = "translateY(-2px)";
-                e.currentTarget.style.boxShadow = "0 4px 8px rgba(0,0,0,0.15)";
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.transform = "translateY(0)";
-                e.currentTarget.style.boxShadow = "0 2px 4px rgba(0,0,0,0.1)";
               }}
             >
               <Link
