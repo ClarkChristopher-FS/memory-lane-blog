@@ -60,7 +60,7 @@ export default function Home() {
               }}
             >
               <Link
-                href={`/posts/${post.id}`}
+                href={`/posts/${post.id}.html`}
                 style={{
                   textDecoration: "none",
                   color: "#2c3e50",
